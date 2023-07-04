@@ -599,9 +599,3 @@ strong {
 #sell-and-skills ol.alternating-colors li:nth-child(even):before {
   border-color: #1C5588;
 }
-
-@media (min-width: 950px) {
-	.container {
-display : none
-}
-}
