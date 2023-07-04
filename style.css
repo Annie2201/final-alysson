@@ -414,6 +414,9 @@ h2 {
   background-color: #A7DFDF;
 }
 
+#sell-and-skills {
+height: auto;
+}
 #sell-and-skills .title h2 {
 margin-left: 43%;
    color: #7ACFB0;
@@ -545,12 +548,14 @@ margin-bottom: 39px;
 }
 
 /* LAST MODIF */
-
+@media (min-width: 950px) {
 #sell-and-skills .container {
 margin: 20px;
   justify-content: space-around;
   display: flex;
 }
+}
+
 
 #sell-and-skills ol {
 flex: 2;
