@@ -312,7 +312,12 @@ img {
   .box {
       height: 200px;
   }
-  
+  #about {
+	height:auto;
+}
+.cyan {
+ display: none;
+}
 }
 
 @media (max-width: 950px) and (min-width: 450px) {
@@ -320,12 +325,6 @@ img {
       text-align: center;
       height: 180px;
   }
-	#about {
-	height:auto;
-}
-	.cyan {
- display: none;
-}
 }
 
 .cyan {
